@@ -23,36 +23,36 @@ nav {
 }
 
 #kubett {
-  grid-column: 3/5;
+  grid-column: 3/6;
   grid-row: 5/14;
 }
 
 #kubtvå {
-  grid-column: 5/7;
+  grid-column: 7/10;
   grid-row: 5/14;
 }
 
 #kubtre {
-  grid-column: 7/9;
+  grid-column: 11/14;
   grid-row: 5/14;
   margin-right: 2px;
 }
 
 #kubfyra {
-  grid-column: 9/11;
-  grid-row: 5/14;
+  grid-column: 3/6;
+  grid-row: 15/24;
 }
 
 #kubfem {
-  grid-column: 11/13;
-  grid-row: 5/14;
+  grid-column: 7/10;
+  grid-row: 15/24;
 }
 
-footer {
-  grid-column: 5/14;
-  grid-row: 15/25;
+#kubsex {
+  grid-column: 11/14;
+  grid-row: 15/24;
+  margin-right: 2px;
 }
-
 
 section /* nederdel */
   {
@@ -106,6 +106,10 @@ section /* nederdel */
     grid-row: 20/24;
   }
 
+  #kubsex {
+    grid-column: 2/16;
+    grid-row: 24/28;
+  }
 
   section /* nederdel */ {
     grid-column: 2/16;
