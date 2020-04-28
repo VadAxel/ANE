@@ -6,9 +6,9 @@ body {
 
 header {
   background-color: #595757;
-  padding: 10px;
+
   text-align: center;
-  font-size: 40px;
+  font-size: 15px;
   text-shadow: -1px 0 rgba(245, 245, 245, 0.5), 0 1px rgba(245, 245, 245, 0.5), 1px 0 rgba(245, 245, 245, 0.5), 0 -1px rgba(245, 245, 245, 0.5);
   box-shadow: 0 3px 5px #000;
   margin-bottom: 2px;
@@ -59,6 +59,8 @@ topnav. {
   border-radius: 5px;
   border: 3px solid black;
   box-shadow: 0 2px 5px #000;
+  height: 200%;
+  width: 100%;
 }
 
 .textruta {
@@ -70,6 +72,15 @@ topnav. {
   margin-left: 4%;
   margin-right: 5%;
   margin-bottom: 2%;
+  text-align: center;
+
+}
+
+.schema {
+border:solid 1px #777;
+width: 70%;
+height: 50%;
+border:0;
 
 }
 
